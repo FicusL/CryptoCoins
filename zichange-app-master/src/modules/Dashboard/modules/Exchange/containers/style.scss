@@ -1,0 +1,74 @@
+.exchange__container {
+  width: 100%;
+}
+
+.exchange__container__title {
+  font-size: 28px;
+  font-family: "Proxima Nova", sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.071;
+  margin-bottom: 25px;
+  text-align: left;
+  width: 100%;
+}
+
+.exchange__container__confirm__button {
+  @media (max-width: 576px) {
+    justify-content: center !important;
+  }
+}
+
+.exchange-confirmation {
+  &__buttons-responsive {
+    max-width: 180px;
+  }
+
+  .transaction-details__table {
+    &__receiveValue {
+      span {
+        display: block;
+      }
+    }
+  }
+
+  .header {
+    margin-bottom: 1em;
+  }
+
+  &__container {
+    margin-bottom: 1em;
+  }
+
+  &__add-btcWallet {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 75px;
+    padding: 0 15px;
+    margin-bottom: 1em;
+
+    font-size: 22px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+
+
+    p {
+      margin-bottom: 0;
+      margin-right: 50px;
+    }
+  }
+
+  .clickable {
+    cursor: pointer;
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.05);
+    }
+  }
+
+  &__bank-info {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+}

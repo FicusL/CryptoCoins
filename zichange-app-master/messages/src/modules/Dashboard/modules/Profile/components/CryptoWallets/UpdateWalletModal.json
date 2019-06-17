@@ -1,0 +1,41 @@
+[
+  {
+    "id": "dashboard.settings.deleteConfirm.wallet",
+    "defaultMessage": "wallet",
+    "file": "src/modules/Dashboard/modules/Profile/components/CryptoWallets/UpdateWalletModal.tsx",
+    "start": {
+      "line": 69,
+      "column": 25
+    },
+    "end": {
+      "line": 69,
+      "column": 114
+    }
+  },
+  {
+    "id": "dashboard.settings.change",
+    "defaultMessage": "Change",
+    "file": "src/modules/Dashboard/modules/Profile/components/CryptoWallets/UpdateWalletModal.tsx",
+    "start": {
+      "line": 95,
+      "column": 10
+    },
+    "end": {
+      "line": 95,
+      "column": 85
+    }
+  },
+  {
+    "id": "dashboard.settings.deleteWallet",
+    "defaultMessage": "Delete wallet",
+    "file": "src/modules/Dashboard/modules/Profile/components/CryptoWallets/UpdateWalletModal.tsx",
+    "start": {
+      "line": 99,
+      "column": 12
+    },
+    "end": {
+      "line": 99,
+      "column": 100
+    }
+  }
+]

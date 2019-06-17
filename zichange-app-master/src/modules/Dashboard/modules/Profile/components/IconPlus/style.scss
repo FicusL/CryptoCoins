@@ -1,0 +1,15 @@
+.icon__plus {
+  position: relative;
+  width: 30px;
+
+  & > * {
+    position: absolute;
+    height: 4px;
+    width: 30px;
+    background-color: rgb(155, 155, 155);
+  }
+
+  & > :last-child {
+    transform: rotate(90deg);
+  }
+}

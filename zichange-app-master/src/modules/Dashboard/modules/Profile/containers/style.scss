@@ -1,0 +1,104 @@
+.account {
+  padding-top: 20px;
+
+  &__details {
+    margin-bottom: 60px;
+
+    &-value {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    &-value {
+      font-size: 18px;
+      padding: 10px 15px;
+      border-bottom: 1px solid #fff;
+      position: relative;
+
+      &.clickable {
+        cursor: pointer;
+
+        &:hover {
+          background-color: rgba(0, 0, 0, 0.3);
+        }
+      }
+
+      .cross {
+        position: absolute;
+        right: 13px;
+        top: 10px;
+        width: 20px;
+        height: 20px;
+
+        &:hover {
+          opacity: 0.5;
+        }
+
+        &:before, &:after {
+          position: absolute;
+          left: 9px;
+          content: ' ';
+          height: 21px;
+          width: 2px;
+          background-color: #fff;
+        }
+
+        &:before {
+          transform: rotate(45deg);
+        }
+
+        &:after {
+          transform: rotate(-45deg);
+        }
+      }
+    }
+  }
+
+  &__options {
+    @media (min-width: 768px) {
+      padding-bottom: 112px;
+    }
+
+
+    & > {
+      * {
+        height: 106px;
+        border-bottom: rgba(240, 241, 243, 0.25) solid 1px;
+      }
+
+      :first-child {
+        border-top: rgba(240, 241, 243, 0.25) solid 1px;
+      }
+    }
+
+    .header {
+      font-size: 22px;
+    }
+
+  }
+
+}
+
+@media (max-width: 576px) {
+  .account__details-value {
+    .header_description {
+      font-size: 14px;
+    }
+  }
+
+  .account__options {
+    &__password-container,
+    &__2FA-container {
+      padding: 1em 0;
+      height: auto;
+
+      div:nth-child(1) {
+        margin-bottom: 1.5em;
+      }
+    }
+  }
+}
+
+
+

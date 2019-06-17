@@ -1,0 +1,28 @@
+[
+  {
+    "id": "dashboard.settings.addBankAccount.title",
+    "defaultMessage": "Add bank account",
+    "file": "src/modules/Dashboard/modules/Profile/components/BankAccounts/AddBankAccountModal.tsx",
+    "start": {
+      "line": 85,
+      "column": 10
+    },
+    "end": {
+      "line": 85,
+      "column": 109
+    }
+  },
+  {
+    "id": "dashboard.settings.add",
+    "defaultMessage": "Add",
+    "file": "src/modules/Dashboard/modules/Profile/components/BankAccounts/AddBankAccountModal.tsx",
+    "start": {
+      "line": 179,
+      "column": 10
+    },
+    "end": {
+      "line": 179,
+      "column": 79
+    }
+  }
+]

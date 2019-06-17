@@ -1,0 +1,28 @@
+[
+  {
+    "id": "dashboard.yes",
+    "defaultMessage": "Yes",
+    "file": "src/modules/Dashboard/modules/Profile/components/Modals/DeleteConfirmModal.tsx",
+    "start": {
+      "line": 62,
+      "column": 12
+    },
+    "end": {
+      "line": 62,
+      "column": 72
+    }
+  },
+  {
+    "id": "dashboard.no",
+    "defaultMessage": "No",
+    "file": "src/modules/Dashboard/modules/Profile/components/Modals/DeleteConfirmModal.tsx",
+    "start": {
+      "line": 65,
+      "column": 12
+    },
+    "end": {
+      "line": 65,
+      "column": 70
+    }
+  }
+]

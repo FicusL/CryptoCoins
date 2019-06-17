@@ -1,0 +1,29 @@
+.how-it-works {
+  .order-button {
+    display: flex;
+    position: relative;
+    width: 140px;
+    justify-content: space-around;
+    border: 3px solid rgb(87, 184, 163);
+    margin-bottom: -25px;
+
+    text-transform: capitalize;
+  }
+
+  .order-button, .order-button:hover {
+    background-color: transparent;
+    color: rgb(87, 184, 163);
+  }
+
+  .order-button:hover .pointer-svg {
+    top: 25px;
+  }
+
+  .pointer-svg {
+    position: absolute;
+    top: 35px;
+    left: 45px;
+    transition: .3s;
+  }
+}
+

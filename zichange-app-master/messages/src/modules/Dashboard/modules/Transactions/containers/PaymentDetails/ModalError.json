@@ -1,0 +1,28 @@
+[
+  {
+    "id": "dashboard.transactions.modalError.title",
+    "defaultMessage": "Error",
+    "file": "src/modules/Dashboard/modules/Transactions/containers/PaymentDetails/ModalError.tsx",
+    "start": {
+      "line": 22,
+      "column": 10
+    },
+    "end": {
+      "line": 22,
+      "column": 98
+    }
+  },
+  {
+    "id": "dashboard.ok",
+    "defaultMessage": "OK",
+    "file": "src/modules/Dashboard/modules/Transactions/containers/PaymentDetails/ModalError.tsx",
+    "start": {
+      "line": 30,
+      "column": 10
+    },
+    "end": {
+      "line": 30,
+      "column": 67
+    }
+  }
+]

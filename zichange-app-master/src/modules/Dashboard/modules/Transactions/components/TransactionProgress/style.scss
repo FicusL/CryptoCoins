@@ -1,0 +1,51 @@
+.operation-progress {
+  padding-top: 30px;
+  padding-bottom: 50px;
+
+  @media (max-width: 576px) {
+    padding: 30px 50px 10px;
+  }
+
+  .progress .checkpoint .circle.completed {
+    border-color: #ffc107;
+  }
+
+  .progress .checkpoint .line {
+    background: linear-gradient(to right, #ffc107 50%, #aaa 50%) right bottom;
+    background-size: 300% 100%;
+
+    &.completed {
+      border-color: #ffc107;
+    }
+  }
+
+  &__Completed {
+    .progress .checkpoint .circle.completed {
+      border-color: #28a745;
+    }
+
+    .progress .checkpoint .line {
+      background: linear-gradient(to right, #28a745 50%, #aaa 50%) right bottom;
+      background-size: 300% 100%;
+
+      &.completed {
+        border-color: #28a745;
+      }
+    }
+  }
+
+  &__Rejected {
+    .progress .checkpoint .circle.completed {
+      border-color: #dc3545;
+    }
+
+    .progress .checkpoint .line {
+      background: linear-gradient(to right, #dc3545 50%, #aaa 50%) right bottom;
+      background-size: 300% 100%;
+
+      &.completed {
+        border-color: #dc3545;
+      }
+    }
+  }
+}

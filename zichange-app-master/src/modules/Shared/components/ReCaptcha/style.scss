@@ -1,0 +1,101 @@
+.recaptcha {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 58px;
+  padding-top: 10px;
+
+  & > div {
+    transform: scaleX(0.8) scaleY(0.8);
+  }
+}
+
+
+@media(min-width: 319px) {
+  .recaptcha {
+    height: 68px;
+
+    & > div {
+      transform: scaleX(0.85) scaleY(0.85);
+    }
+  }
+
+  .recaptcha-captcha-container {
+    .form__error-message {
+      top: 69px;
+    }
+  }
+
+  .geetest_captcha-container {
+    .form__error-message {
+      top: 42px;
+    }
+  }
+}
+
+@media(min-width: 375px) {
+  .recaptcha {
+    height: 78px;
+
+    & > div {
+      transform: scaleX(0.85) scaleY(0.85);
+    }
+  }
+
+  .recaptcha-captcha-container {
+    .form__error-message {
+      top: 78px;
+    }
+  }
+
+  .geetest_captcha-container {
+    .form__error-message {
+      top: 42px;
+    }
+  }
+}
+
+@media(min-width: 411px) {
+  .recaptcha {
+    height: 78px;
+
+    & > div {
+      transform: scaleX(0.85) scaleY(0.85);
+    }
+  }
+
+  .recaptcha-captcha-container {
+    .form__error-message {
+      top: 75px;
+    }
+  }
+
+  .geetest_captcha-container {
+    .form__error-message {
+      top: 42px;
+    }
+  }
+}
+
+@media(min-width: 576px) {
+  .recaptcha {
+    height: 88px;
+
+    & > div {
+      transform: scaleX(1) scaleY(1);
+    }
+  }
+
+  .recaptcha-captcha-container {
+    .form__error-message {
+      top: 83px;
+    }
+  }
+
+  .geetest_captcha-container {
+    .form__error-message {
+      top: 42px;
+    }
+  }
+}

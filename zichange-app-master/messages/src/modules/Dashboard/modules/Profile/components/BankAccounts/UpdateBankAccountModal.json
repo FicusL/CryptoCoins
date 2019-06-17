@@ -1,0 +1,41 @@
+[
+  {
+    "id": "dashboard.settings.deleteConfirm.bankAccount",
+    "defaultMessage": "bank account",
+    "file": "src/modules/Dashboard/modules/Profile/components/BankAccounts/UpdateBankAccountModal.tsx",
+    "start": {
+      "line": 97,
+      "column": 10
+    },
+    "end": {
+      "line": 97,
+      "column": 110
+    }
+  },
+  {
+    "id": "dashboard.settings.change",
+    "defaultMessage": "Change",
+    "file": "src/modules/Dashboard/modules/Profile/components/BankAccounts/UpdateBankAccountModal.tsx",
+    "start": {
+      "line": 172,
+      "column": 10
+    },
+    "end": {
+      "line": 172,
+      "column": 85
+    }
+  },
+  {
+    "id": "dashboard.settings.deleteBankAccount",
+    "defaultMessage": "Delete bank account",
+    "file": "src/modules/Dashboard/modules/Profile/components/BankAccounts/UpdateBankAccountModal.tsx",
+    "start": {
+      "line": 176,
+      "column": 12
+    },
+    "end": {
+      "line": 176,
+      "column": 111
+    }
+  }
+]

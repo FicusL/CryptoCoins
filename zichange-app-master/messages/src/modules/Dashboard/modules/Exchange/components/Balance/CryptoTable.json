@@ -1,0 +1,41 @@
+[
+  {
+    "id": "dashboard.exchange.crypto",
+    "defaultMessage": "Crypto",
+    "file": "src/modules/Dashboard/modules/Exchange/components/Balance/CryptoTable.tsx",
+    "start": {
+      "line": 58,
+      "column": 10
+    },
+    "end": {
+      "line": 58,
+      "column": 85
+    }
+  },
+  {
+    "id": "dashboard.exchange.deposit",
+    "defaultMessage": "Deposit",
+    "file": "src/modules/Dashboard/modules/Exchange/components/Balance/CryptoTable.tsx",
+    "start": {
+      "line": 71,
+      "column": 20
+    },
+    "end": {
+      "line": 71,
+      "column": 97
+    }
+  },
+  {
+    "id": "dashboard.exchange.withdraw",
+    "defaultMessage": "Withdraw",
+    "file": "src/modules/Dashboard/modules/Exchange/components/Balance/CryptoTable.tsx",
+    "start": {
+      "line": 75,
+      "column": 20
+    },
+    "end": {
+      "line": 75,
+      "column": 99
+    }
+  }
+]

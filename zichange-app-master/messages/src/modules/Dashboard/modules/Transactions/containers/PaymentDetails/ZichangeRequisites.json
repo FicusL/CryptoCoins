@@ -1,0 +1,93 @@
+[
+  {
+    "id": "dashboard.transactions.requisites.headerPart1",
+    "defaultMessage": "Please send",
+    "file": "src/modules/Dashboard/modules/Transactions/containers/PaymentDetails/ZichangeRequisites.tsx",
+    "start": {
+      "line": 70,
+      "column": 10
+    },
+    "end": {
+      "line": 73,
+      "column": 12
+    }
+  },
+  {
+    "id": "dashboard.transactions.requisites.crypto.headerPart2",
+    "defaultMessage": "to the following wallet. The whole amount should be sent as one transaction",
+    "file": "src/modules/Dashboard/modules/Transactions/containers/PaymentDetails/ZichangeRequisites.tsx",
+    "start": {
+      "line": 30,
+      "column": 10
+    },
+    "end": {
+      "line": 33,
+      "column": 12
+    }
+  },
+  {
+    "id": "dashboard.transactions.requisites.orScanCode",
+    "defaultMessage": "Or scan qr-code",
+    "file": "src/modules/Dashboard/modules/Transactions/containers/PaymentDetails/ZichangeRequisites.tsx",
+    "start": {
+      "line": 49,
+      "column": 15
+    },
+    "end": {
+      "line": 52,
+      "column": 17
+    }
+  },
+  {
+    "id": "dashboard.transactions.requisites.fiat.headerPart2",
+    "defaultMessage": "to the following bank account. The whole amount should be sent as one transaction",
+    "file": "src/modules/Dashboard/modules/Transactions/containers/PaymentDetails/ZichangeRequisites.tsx",
+    "start": {
+      "line": 75,
+      "column": 10
+    },
+    "end": {
+      "line": 78,
+      "column": 12
+    }
+  },
+  {
+    "id": "dashboard.settings.addBankAccount.bankName",
+    "defaultMessage": "Bank name",
+    "file": "src/modules/Dashboard/modules/Transactions/containers/PaymentDetails/ZichangeRequisites.tsx",
+    "start": {
+      "line": 82,
+      "column": 12
+    },
+    "end": {
+      "line": 82,
+      "column": 107
+    }
+  },
+  {
+    "id": "dashboard.transactions.requisites.iban",
+    "defaultMessage": "IBAN",
+    "file": "src/modules/Dashboard/modules/Transactions/containers/PaymentDetails/ZichangeRequisites.tsx",
+    "start": {
+      "line": 90,
+      "column": 12
+    },
+    "end": {
+      "line": 90,
+      "column": 98
+    }
+  },
+  {
+    "id": "dashboard.transactions.requisites.swift",
+    "defaultMessage": "SWIFT",
+    "file": "src/modules/Dashboard/modules/Transactions/containers/PaymentDetails/ZichangeRequisites.tsx",
+    "start": {
+      "line": 98,
+      "column": 12
+    },
+    "end": {
+      "line": 98,
+      "column": 100
+    }
+  }
+]

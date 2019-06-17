@@ -1,0 +1,23 @@
+.icon {
+  display: block;
+  border-radius: 20px;
+  background: rgb(227, 230, 233) no-repeat center;
+  width: 100px;
+  height: 100px;
+
+  &-checkmark {
+    background-image: url(../assets/images/modals/checkmark.png);
+  }
+  &-security {
+    background-image: url(../assets/images/modals/security.png);
+  }
+  &-simple {
+    background-image: url(../assets/images/modals/simple.png);
+  }
+  &-compliant {
+    background-image: url(../assets/images/modals/compliant.png);
+  }
+  &-kyc-sent {
+    background-image: url(../assets/images/modals/kyc-sent.png);
+  }
+}

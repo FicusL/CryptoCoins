@@ -1,0 +1,28 @@
+[
+  {
+    "id": "footer.contactUs.title",
+    "defaultMessage": "Contact us",
+    "file": "src/modules/ContactUs/ContactUsModal.tsx",
+    "start": {
+      "line": 60,
+      "column": 10
+    },
+    "end": {
+      "line": 60,
+      "column": 86
+    }
+  },
+  {
+    "id": "footer.contactUs.sendMessage",
+    "defaultMessage": "Send message",
+    "file": "src/modules/ContactUs/ContactUsModal.tsx",
+    "start": {
+      "line": 135,
+      "column": 12
+    },
+    "end": {
+      "line": 135,
+      "column": 96
+    }
+  }
+]

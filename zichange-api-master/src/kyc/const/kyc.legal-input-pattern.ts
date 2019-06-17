@@ -1,0 +1,1 @@
+export const kycLegalInputPattern = /[0-9,A-Za-z]*[$@!%*?#&_()~+,-/:;'\]"\\^`{|}<=>[\s]*/;

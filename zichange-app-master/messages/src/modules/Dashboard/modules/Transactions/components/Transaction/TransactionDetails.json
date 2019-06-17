@@ -1,0 +1,106 @@
+[
+  {
+    "id": "dashboard.transactions.transactionWasRejected",
+    "defaultMessage": "Transaction was rejected by this reason",
+    "file": "src/modules/Dashboard/modules/Transactions/components/Transaction/TransactionDetails.tsx",
+    "start": {
+      "line": 25,
+      "column": 12
+    },
+    "end": {
+      "line": 28,
+      "column": 14
+    }
+  },
+  {
+    "id": "dashboard.transactions.date",
+    "defaultMessage": "Date",
+    "file": "src/modules/Dashboard/modules/Transactions/components/Transaction/TransactionDetails.tsx",
+    "start": {
+      "line": 51,
+      "column": 10
+    },
+    "end": {
+      "line": 54,
+      "column": 12
+    }
+  },
+  {
+    "id": "dashboard.transactions.from",
+    "defaultMessage": "From",
+    "file": "src/modules/Dashboard/modules/Transactions/components/Transaction/TransactionDetails.tsx",
+    "start": {
+      "line": 58,
+      "column": 10
+    },
+    "end": {
+      "line": 61,
+      "column": 12
+    }
+  },
+  {
+    "id": "dashboard.transactions.to",
+    "defaultMessage": "To",
+    "file": "src/modules/Dashboard/modules/Transactions/components/Transaction/TransactionDetails.tsx",
+    "start": {
+      "line": 65,
+      "column": 10
+    },
+    "end": {
+      "line": 68,
+      "column": 12
+    }
+  },
+  {
+    "id": "dashboard.transactions.fee",
+    "defaultMessage": "Fee",
+    "file": "src/modules/Dashboard/modules/Transactions/components/Transaction/TransactionDetails.tsx",
+    "start": {
+      "line": 72,
+      "column": 10
+    },
+    "end": {
+      "line": 75,
+      "column": 12
+    }
+  },
+  {
+    "id": "dashboard.transactions.rate",
+    "defaultMessage": "Rate",
+    "file": "src/modules/Dashboard/modules/Transactions/components/Transaction/TransactionDetails.tsx",
+    "start": {
+      "line": 81,
+      "column": 16
+    },
+    "end": {
+      "line": 81,
+      "column": 91
+    }
+  },
+  {
+    "id": "dashboard.transactions.referenceId",
+    "defaultMessage": "Reference ID",
+    "file": "src/modules/Dashboard/modules/Transactions/components/Transaction/TransactionDetails.tsx",
+    "start": {
+      "line": 88,
+      "column": 10
+    },
+    "end": {
+      "line": 91,
+      "column": 12
+    }
+  },
+  {
+    "id": "dashboard.transactions.moreInfo",
+    "defaultMessage": "More Info",
+    "file": "src/modules/Dashboard/modules/Transactions/components/Transaction/TransactionDetails.tsx",
+    "start": {
+      "line": 97,
+      "column": 14
+    },
+    "end": {
+      "line": 97,
+      "column": 98
+    }
+  }
+]

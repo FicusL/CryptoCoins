@@ -1,0 +1,1 @@
+export const accountPasswordPattern = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@!%*?#&_()~+,-/:;'\]"\\^`{|}<=>[\s])[A-Za-z\d$@!%*?_&]/;

@@ -1,0 +1,177 @@
+.payment-details {
+
+  &__buttons {
+    width: 300px;
+
+    font-size: 14px;
+
+    @media (min-width: 700px) {
+      font-size: 16px;
+      width: 350px;
+    }
+  }
+
+  &__message {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
+  &__table {
+    margin-bottom: 35px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(240, 241, 243, 0.25);
+
+    .header {
+      margin-bottom: 0.7em;
+      @media (max-width: 576px) {
+        padding: 0 10px;
+      }
+    }
+
+    &--last {
+      border-bottom: none;
+    }
+  }
+
+  .table__row {
+    margin-bottom: 0.6em;
+  }
+
+  .table__column {
+    div {
+      margin-bottom: 0.8em;
+    }
+  }
+
+  &--last {
+    border-bottom: none;
+  }
+
+  .bank-info {
+    cursor: pointer;
+
+    &:hover {
+      border-bottom: 1px solid;
+    }
+  }
+
+  &__wallet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    &__address {
+      margin-right: 1em;
+      margin-bottom: 5px;
+      border-bottom: 1px dashed;
+    }
+
+    &__label {
+      width: 100%;
+      text-transform: uppercase;
+    }
+  }
+
+  .qr-code {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-transform: uppercase;
+
+    span {
+      display: block;
+      margin-bottom: 1em;
+    }
+  }
+
+  .warning {
+
+    &.warning__container {
+      display: flex;
+      align-items: center;
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    &__block {
+      text-transform: uppercase;
+      background: #ff8000;
+      position: relative;
+      margin: 25px 35px 25px 10px;
+      padding: 12px 25px 12px 60px;
+    }
+
+    &__sign {
+      position: absolute;
+      font-size: 30px;
+      font-family: sans-serif, Arial;
+      font-weight: bold;
+      padding: 3.5px 15px;
+      border-right: 2px solid;
+      left: 0;
+      top: 0;
+    }
+
+    &__description {
+      margin-bottom: 0;
+
+      span:nth-child(2) {
+        font-weight: bold;
+      }
+    }
+
+  }
+
+}
+
+@media(max-width: 576px) {
+  .payment-details {
+
+    &__table {
+      font-size: 14px;
+
+      .table__row {
+        min-height: 40px;
+        margin-bottom: 0;
+      }
+
+      .table__row:nth-child(4) {
+        margin-bottom: 1em;
+      }
+    }
+
+    &__wallet {
+      font-size: 14px;
+    }
+
+    .warning {
+      &.warning__container {
+        flex-direction: column;
+        padding: 0.8em 0;
+      }
+
+      &__block {
+        margin: 0 0 1em;
+      }
+
+      &__description {
+        text-align: center;
+      }
+    }
+
+  }
+
+}
+
+.withdrawal__details-value {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 5px;
+  padding-top: 5px;
+
+  .radio-btn {
+    padding: 0 5px 0 16px;
+  }
+}

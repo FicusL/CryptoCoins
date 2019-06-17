@@ -1,0 +1,41 @@
+[
+  {
+    "id": "dashboard.2FaEnabled.title",
+    "defaultMessage": "2FA not enabled!",
+    "file": "src/modules/Dashboard/modules/Exchange/components/Modals/PleaseEnable2Fa.tsx",
+    "start": {
+      "line": 19,
+      "column": 10
+    },
+    "end": {
+      "line": 19,
+      "column": 96
+    }
+  },
+  {
+    "id": "dashboard.2FaEnabled.note",
+    "defaultMessage": "You need to enable Two-Factor Authentication to start exchange.",
+    "file": "src/modules/Dashboard/modules/Exchange/components/Modals/PleaseEnable2Fa.tsx",
+    "start": {
+      "line": 23,
+      "column": 10
+    },
+    "end": {
+      "line": 26,
+      "column": 12
+    }
+  },
+  {
+    "id": "dashboard.ok",
+    "defaultMessage": "OK",
+    "file": "src/modules/Dashboard/modules/Exchange/components/Modals/PleaseEnable2Fa.tsx",
+    "start": {
+      "line": 38,
+      "column": 10
+    },
+    "end": {
+      "line": 38,
+      "column": 68
+    }
+  }
+]

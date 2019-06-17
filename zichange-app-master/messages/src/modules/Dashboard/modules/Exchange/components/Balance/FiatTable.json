@@ -1,0 +1,41 @@
+[
+  {
+    "id": "dashboard.exchange.fiat",
+    "defaultMessage": "Fiat",
+    "file": "src/modules/Dashboard/modules/Exchange/components/Balance/FiatTable.tsx",
+    "start": {
+      "line": 58,
+      "column": 10
+    },
+    "end": {
+      "line": 58,
+      "column": 81
+    }
+  },
+  {
+    "id": "dashboard.exchange.deposit",
+    "defaultMessage": "Deposit",
+    "file": "src/modules/Dashboard/modules/Exchange/components/Balance/FiatTable.tsx",
+    "start": {
+      "line": 70,
+      "column": 18
+    },
+    "end": {
+      "line": 70,
+      "column": 95
+    }
+  },
+  {
+    "id": "dashboard.exchange.withdraw",
+    "defaultMessage": "Withdraw",
+    "file": "src/modules/Dashboard/modules/Exchange/components/Balance/FiatTable.tsx",
+    "start": {
+      "line": 74,
+      "column": 18
+    },
+    "end": {
+      "line": 74,
+      "column": 97
+    }
+  }
+]

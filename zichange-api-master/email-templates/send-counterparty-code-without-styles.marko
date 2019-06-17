@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Montserrat');
+    </style>
+</head>
+<body style="margin: 0;">
+<table style="width: 98%; margin: 0 auto;" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+        <td align="center">
+            <table style="width: 100%; max-width: 600px; background-color: rgba(0, 0, 0, 0)" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td height="80" style="background-color: rgba(0, 0, 0, 0)" align="center">
+                        <a href="${input.url}">
+                            <img style="max-width: 120px; max-height: 35px; outline: 0; border: 0;" src="${input.logoUrl}">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" style="font-family: 'Montserrat','Open Sans', Helvetica, Arial, sans-serif; background-color: rgba(0, 0, 0, 0)">
+                        <p style="color: rgba(0, 0, 0, 1);width:85%;font-size:27px;margin-bottom:0px;font-weight: bold;line-height: 50px;" >Transaction verification</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td height="20"></td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        <table style="width: 80%; background-color: rgba(0, 0, 0, 0)" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td align="center" style="font-family: 'Open Sans', Helvetica, Arial, sans-serif;font-style:light;">
+                                    <p style="font-size:18px;text-align:center;width:91%;line-height: 27px;color: rgba(0, 0, 0, 1);">
+                                      Dear user,
+                                    </p>
+                                    <p style="font-size:18px;text-align:center;width:97%;line-height: 27px;color: rgba(0, 0, 0, 1);">
+                                      We have to verify that you are making transactions in person. Your verification code is ${input.code}, it will remain valid for 5 minutes. You also can use the following link to confirm the transaction:
+                                    </p>
+                                    <p style="font-size:18px;text-align:center;width:97%;line-height: 27px;color: rgba(0, 0, 0, 1);">
+
+                                        <a href=input.link target="_blank" style="color: rgba(0, 0, 0, 1);;text-decoration: underline;">
+                                            ${input.activationUrl}
+                                        </a>
+                                    </p>
+                                    <p style="font-size:18px;text-align:center;width:97%;line-height: 27px;color: rgba(0, 0, 0, 1);">
+                                      Please do not provide your verification code to anyone.
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" style="font-family: 'Montserrat', 'Open Sans', Helvetica, Arial, sans-serif;">
+                                    <p style="color: rgba(0, 0, 0, 1);;font-size:27px;margin-bottom:0px;margin-left:13px;font-weight: bold;line-height: 60px;" >${input.letterTextFooter}</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="30"></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+</body>
+</html>

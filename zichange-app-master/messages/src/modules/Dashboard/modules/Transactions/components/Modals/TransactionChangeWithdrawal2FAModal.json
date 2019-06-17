@@ -1,0 +1,28 @@
+[
+  {
+    "id": "dashboard.2FaEnabled.confirmOperationWith2FA",
+    "defaultMessage": "Confirm operation with 2FA code",
+    "file": "src/modules/Dashboard/modules/Transactions/components/Modals/TransactionChangeWithdrawal2FAModal.tsx",
+    "start": {
+      "line": 26,
+      "column": 10
+    },
+    "end": {
+      "line": 29,
+      "column": 12
+    }
+  },
+  {
+    "id": "dashboard.confirm",
+    "defaultMessage": "Confirm",
+    "file": "src/modules/Dashboard/modules/Transactions/components/Modals/TransactionChangeWithdrawal2FAModal.tsx",
+    "start": {
+      "line": 42,
+      "column": 12
+    },
+    "end": {
+      "line": 42,
+      "column": 80
+    }
+  }
+]

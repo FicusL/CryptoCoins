@@ -1,0 +1,99 @@
+@import "../../../../../Shared/style/common/mixins";
+
+.wallet {
+
+  &__container-title {
+    font-size: 28px;
+    font-family: "Proxima Nova", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.071;
+    margin-bottom: 25px;
+    text-align: left;
+    width: 100%;
+  }
+
+  &__title {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    border-bottom: 4px solid rgba(255, 255, 255, 0.3);
+  }
+
+  &__table {
+    margin-bottom: 50px;
+
+    &-row, &-header {
+      align-items: center;
+      padding: 15px;
+    }
+
+    &-header {
+      background-color: rgba(255, 255, 255, 0.1);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    }
+
+    &-row {
+      background-color: rgba(0, 0, 0, 0.1);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    &__buttons {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+
+      & > * {
+        margin-top: 15px;
+        @include minMedia(998) {
+          margin-top: 0;
+        }
+      }
+
+      .deposit {
+        order: 0;
+      }
+      .trade {
+        order:1;
+        @include minMedia(480) {
+          order: 3;
+        }
+      }
+      .withdrawal {
+        order: 2;
+      }
+
+    }
+  }
+}
+
+.wallet-modal {
+  .form__input__currency__label {
+    padding-left: 16px;
+  }
+
+  .input__currency .form__input:hover {
+    background-color: rgba(76, 69, 119, 0.2);
+  }
+
+  &__payment-method {
+    border-bottom: 1px solid;
+    margin-bottom: 20px;
+  }
+
+  .dashboard-btn--modal {
+    margin-bottom: 0;
+  }
+
+  &__address {
+    border-bottom: 1px dashed;
+  }
+
+  .qr-code {
+    width: 200px;
+    height: 200px;
+    margin:  0 auto 30px;
+  }
+}

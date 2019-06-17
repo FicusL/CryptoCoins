@@ -1,0 +1,28 @@
+[
+  {
+    "id": "dashboard.settings.haveNoWallets",
+    "defaultMessage": "You have no connected wallets",
+    "file": "src/modules/Dashboard/modules/Profile/components/CryptoWallets/index.tsx",
+    "start": {
+      "line": 42,
+      "column": 12
+    },
+    "end": {
+      "line": 44,
+      "column": 14
+    }
+  },
+  {
+    "id": "dashboard.settings.addNewWallet",
+    "defaultMessage": "Add new wallet",
+    "file": "src/modules/Dashboard/modules/Profile/components/CryptoWallets/index.tsx",
+    "start": {
+      "line": 49,
+      "column": 12
+    },
+    "end": {
+      "line": 51,
+      "column": 14
+    }
+  }
+]

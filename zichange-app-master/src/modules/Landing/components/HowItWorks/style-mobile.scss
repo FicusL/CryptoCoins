@@ -1,0 +1,23 @@
+.how-it-works {
+  &_text-format {
+    p {
+      margin: 26px;
+    }
+  }
+  &--mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    .order-button {
+      margin-bottom: 30px;
+    }
+
+    .exchanges-container {
+      transform: rotate(90deg);
+      margin-bottom: -8px;
+    }
+  }
+
+}

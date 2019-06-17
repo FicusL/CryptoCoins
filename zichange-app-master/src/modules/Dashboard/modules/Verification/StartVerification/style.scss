@@ -1,0 +1,51 @@
+.verify-identity {
+
+  &__title {
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  &__card {
+    display: flex;
+    align-items: center;
+    padding: 20px 15px;
+    margin-bottom: 40px;
+    background-color: rgba(20, 20, 20, 0.2);
+    border-radius: 20px;
+    max-width: 400px;
+  }
+
+  .advantage {
+    color: #e3e6e9;
+
+    &-title {
+      font-size: 24px;
+      margin-bottom: 8px;
+    }
+
+    &-description {
+      font-size: 16px;
+      margin-bottom: 0;
+    }
+  }
+
+  .icon {
+    background-color: rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(42, 109, 118, 1);
+  }
+
+  .tiers {
+    background-color: rgba(0, 0, 0, 0.2);
+
+    &__tier {
+      background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    &__tier, &__volume, &__documents  {
+      padding: 15px;
+      box-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+    }
+  }
+}

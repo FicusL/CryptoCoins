@@ -1,0 +1,54 @@
+[
+  {
+    "id": "authorization.privacyPolicy",
+    "defaultMessage": "Privacy Policy",
+    "file": "src/modules/Authorization/modules/Register/RegisterContainer.tsx",
+    "start": {
+      "line": 228,
+      "column": 18
+    },
+    "end": {
+      "line": 228,
+      "column": 103
+    }
+  },
+  {
+    "id": "authorization.termsOfUse",
+    "defaultMessage": "Terms of use",
+    "file": "src/modules/Authorization/modules/Register/RegisterContainer.tsx",
+    "start": {
+      "line": 243,
+      "column": 60
+    },
+    "end": {
+      "line": 243,
+      "column": 140
+    }
+  },
+  {
+    "id": "authorization.refundPolicy",
+    "defaultMessage": "Refund policy",
+    "file": "src/modules/Authorization/modules/Register/RegisterContainer.tsx",
+    "start": {
+      "line": 256,
+      "column": 98
+    },
+    "end": {
+      "line": 256,
+      "column": 181
+    }
+  },
+  {
+    "id": "authorization.signIn",
+    "defaultMessage": "Login",
+    "file": "src/modules/Authorization/modules/Register/RegisterContainer.tsx",
+    "start": {
+      "line": 306,
+      "column": 14
+    },
+    "end": {
+      "line": 306,
+      "column": 82
+    }
+  }
+]

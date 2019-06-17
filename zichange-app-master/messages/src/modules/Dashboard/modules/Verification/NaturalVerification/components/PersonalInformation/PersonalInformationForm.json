@@ -1,0 +1,28 @@
+[
+  {
+    "id": "dashboard.kyc.tier1.personalInfo.recomendation",
+    "defaultMessage": "Please fill out the form in latin characters",
+    "file": "src/modules/Dashboard/modules/Verification/NaturalVerification/components/PersonalInformation/PersonalInformationForm.tsx",
+    "start": {
+      "line": 48,
+      "column": 10
+    },
+    "end": {
+      "line": 49,
+      "column": 91
+    }
+  },
+  {
+    "id": "dashboard.kyc.tier1.personalInfo.title",
+    "defaultMessage": "Personal information",
+    "file": "src/modules/Dashboard/modules/Verification/NaturalVerification/components/PersonalInformation/PersonalInformationForm.tsx",
+    "start": {
+      "line": 52,
+      "column": 10
+    },
+    "end": {
+      "line": 52,
+      "column": 111
+    }
+  }
+]

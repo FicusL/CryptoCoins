@@ -1,0 +1,47 @@
+.form__field.text-area {
+  width: 100%;
+
+  .form__input {
+    height: auto;
+    padding: 0;
+    margin-bottom: 0;
+  }
+
+  .form__error-message {
+    position: static;
+  }
+
+  textarea {
+    min-width: 100%;
+    min-height: 90px;
+    max-height: 300px;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-family: inherit;
+  }
+
+  .text-area__scroll {
+    &::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    &::-webkit-scrollbar-corner {
+      background-color: rgba(255, 255, 255, 0.5);
+      border-bottom-right-radius: 5px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: rgba(255, 255, 255, 0.7);
+      border-radius: 5px;
+
+      &:hover {
+        background-color: #fff;
+      }
+    }
+  }
+
+}

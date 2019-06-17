@@ -1,0 +1,38 @@
+.twoFA-info {
+
+  .header {
+    background: none;
+  }
+
+  &__to-setup-list {
+    a {
+      text-decoration: underline;
+    }
+  }
+
+  &__to-setup-list,
+  &__to-disable-list {
+    padding-left: 50px;
+
+    ol {
+      list-style-type: decimal;
+    }
+
+    li {
+      line-height: 1.5;
+    }
+  }
+
+  &__contact-zichange {
+    span {
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
+}
+
+.whatIs2fa {
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}

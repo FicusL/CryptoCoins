@@ -1,0 +1,139 @@
+.how-it-works {
+  font-size: 18px;
+  margin-bottom: 100px;
+  overflow: hidden;
+
+  @import 'arrows';
+
+  .scheme-switch {
+    text-align: center;
+    align-self: center;
+  }
+
+  .top-section {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: flex-start;
+
+    .right-caption {
+      text-align: center;
+      position: absolute;
+      margin-left: -40px;
+      margin-top: 20px;
+    }
+  }
+
+  .scheme-title {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+
+  .deposit-order-container {
+    display: flex;
+    align-items: flex-end;
+
+    .deposit {
+      &__icon {
+        width: 100px;
+        margin-bottom: -45px;
+      }
+
+      &__text {
+        text-align: center;
+        padding-top: 60px;
+      }
+    }
+
+    .order {
+      &__icon {
+        margin-bottom: -25px;
+      }
+    }
+  }
+
+  .deposit-order-text {
+    display: flex;
+    padding-top: 55px;
+    text-align: center;
+
+    .deposit-text {
+      width: 235px;
+      height: 114px;
+    }
+
+    .order-text {
+      margin-left: 110px;
+    }
+  }
+
+  .arrow-path {
+    &--horizontal {
+      width: 55px;
+      height: 4px;
+      margin: 0 5px;
+      background: #c7d5de;
+    }
+
+    &--vertical {
+      width: 4px;
+      height: 208px;
+      background: #c7d5de;
+    }
+  }
+
+  .fiat-list {
+    list-style: disc inside;
+    line-height: 1.6;
+  }
+
+  .exchanges-container {
+    display: flex;
+    align-items: center;
+    margin-top: -12px;
+
+    .arrow-path--horizontal {
+      margin-right: 0;
+    }
+
+    .exchange-list {
+      width: 160px;
+      height: 240px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      li {
+        display: flex;
+        align-items: center;
+      }
+
+      .line-left, line-right {
+        display: inline-block;
+        background-color: #c7d5de;
+      }
+
+      .line-left {
+        height: 4px;
+        width: 21px;
+      }
+
+      .line-right {
+        flex: 1;
+        border-top: 4px dashed #c7d5de;
+      }
+    }
+  }
+
+  .algorithm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(238, 244, 248);
+
+    width: 261px;
+    height: 240px;
+  }
+}

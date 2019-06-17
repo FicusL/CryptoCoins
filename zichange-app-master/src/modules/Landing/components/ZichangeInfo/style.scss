@@ -1,0 +1,73 @@
+.zichange-info {
+  margin-bottom: 110px;
+
+  &__container {
+    align-items: center;
+  }
+
+  &__title {
+    padding: 30px 15px;
+    position: relative;
+
+    h2 {
+      font-size: 60px;
+      line-height: 90px;
+      color: #1e4b5a;
+      position: relative;
+
+      z-index: 1;
+    }
+
+    &::before {
+      display: none;
+      position: absolute;
+      content: '';
+
+      width: 845px;
+      height: 337px;
+
+      top: 0;
+      left: -390px;;
+
+      background: url('./assets/zichange-logo-2.png') no-repeat center;
+    }
+
+    @media screen and (min-width: 768px){
+      padding: 125px 15px;
+
+      h2 {
+        font-size: 88px;
+      }
+
+      &::before {
+        display: block;
+      }
+    }
+  }
+
+  &__description {
+    color: #303e48;
+
+    &__text {
+      font-size: 18px;
+      line-height: 26px;
+
+      padding-right: 10px;
+      padding-top: 25px;
+      margin-bottom: 35px;
+
+       &__title {
+         font-weight: bold;
+       }
+    }
+
+    &__fixed-exchange {
+      font-size: 24px;
+      line-height: 26px;
+
+      .percent {
+        color: #57b8a3;
+      }
+    }
+  }
+}

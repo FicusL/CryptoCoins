@@ -1,0 +1,21 @@
+.dropdown-icon {
+  position: absolute;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid #fff;
+  border-radius: 3px;
+  transition: 0.3s;
+
+  right: 5px;
+
+  &.opened {
+    transform: rotate(180deg);
+  }
+}
+
+@media screen and (max-width: 767px){
+  .dropdown-icon {
+    left: 5px;
+    right: auto;
+  }
+}

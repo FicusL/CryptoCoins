@@ -1,0 +1,48 @@
+.progress {
+  position: relative;
+
+  &__bar {
+    width: 100%;
+    background-color: #aaa;
+
+    .amount-complete {
+      background-color: #ec0;
+      height: 12px;
+    }
+
+    position: absolute;
+    z-index: -5;
+    bottom: 8px;
+  }
+
+  &__checkpoints,
+  &__labels {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__labels {
+    .label {
+      margin-bottom: 8px;
+    }
+  }
+
+  &__checkpoints {
+    margin: 0 -3px;
+
+    .checkpoint {
+      display: inline-block;
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      border: 7px solid #aaa;
+      background-color: #1F2C46;
+      transition: .8s;
+
+      &.completed {
+        border-color: #ec0;
+      }
+    }
+  }
+
+}

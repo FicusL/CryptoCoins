@@ -1,0 +1,9 @@
+@import "/../../../../../../Shared/style/common/mixins";
+
+.natural-btn-container {
+
+  @include minMedia(576) {
+    display: flex;
+    justify-content: space-between;
+  }
+}

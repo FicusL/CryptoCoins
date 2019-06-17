@@ -1,0 +1,54 @@
+[
+  {
+    "id": "dashboard.referralProgram.conditions.title",
+    "defaultMessage": "Conditions",
+    "file": "src/modules/Dashboard/modules/ReferralProgram/containers/ReferralProgram.tsx",
+    "start": {
+      "line": 29,
+      "column": 12
+    },
+    "end": {
+      "line": 29,
+      "column": 107
+    }
+  },
+  {
+    "id": "dashboard.referralProgram.personalLink.title",
+    "defaultMessage": "Personal link",
+    "file": "src/modules/Dashboard/modules/ReferralProgram/containers/ReferralProgram.tsx",
+    "start": {
+      "line": 39,
+      "column": 12
+    },
+    "end": {
+      "line": 39,
+      "column": 112
+    }
+  },
+  {
+    "id": "dashboard.referralProgram.referralTransactions.title",
+    "defaultMessage": "Referral transactions board",
+    "file": "src/modules/Dashboard/modules/ReferralProgram/containers/ReferralProgram.tsx",
+    "start": {
+      "line": 52,
+      "column": 12
+    },
+    "end": {
+      "line": 54,
+      "column": 60
+    }
+  },
+  {
+    "id": "dashboard.referralProgram.programTerms.title",
+    "defaultMessage": "Affiliate program terms",
+    "file": "src/modules/Dashboard/modules/ReferralProgram/containers/ReferralProgram.tsx",
+    "start": {
+      "line": 68,
+      "column": 12
+    },
+    "end": {
+      "line": 71,
+      "column": 14
+    }
+  }
+]

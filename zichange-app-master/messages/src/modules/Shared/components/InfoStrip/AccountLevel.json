@@ -1,0 +1,41 @@
+[
+  {
+    "id": "dashboard.infoStrip.accountLevel",
+    "defaultMessage": "Account level",
+    "file": "src/modules/Shared/components/InfoStrip/AccountLevel.tsx",
+    "start": {
+      "line": 45,
+      "column": 10
+    },
+    "end": {
+      "line": 45,
+      "column": 98
+    }
+  },
+  {
+    "id": "dashboard.infoStrip.retryVerification",
+    "defaultMessage": "Retry verification",
+    "file": "src/modules/Shared/components/InfoStrip/AccountLevel.tsx",
+    "start": {
+      "line": 53,
+      "column": 12
+    },
+    "end": {
+      "line": 53,
+      "column": 110
+    }
+  },
+  {
+    "id": "dashboard.infoStrip.increaseLimits",
+    "defaultMessage": "Increase limits",
+    "file": "src/modules/Shared/components/InfoStrip/AccountLevel.tsx",
+    "start": {
+      "line": 59,
+      "column": 12
+    },
+    "end": {
+      "line": 59,
+      "column": 104
+    }
+  }
+]

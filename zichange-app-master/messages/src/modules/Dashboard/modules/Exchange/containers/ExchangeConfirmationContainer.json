@@ -1,0 +1,67 @@
+[
+  {
+    "id": "dashboard.transactions.from",
+    "defaultMessage": "From",
+    "file": "src/modules/Dashboard/modules/Exchange/containers/ExchangeConfirmationContainer.tsx",
+    "start": {
+      "line": 215,
+      "column": 16
+    },
+    "end": {
+      "line": 215,
+      "column": 91
+    }
+  },
+  {
+    "id": "dashboard.transactions.fee",
+    "defaultMessage": "Fee",
+    "file": "src/modules/Dashboard/modules/Exchange/containers/ExchangeConfirmationContainer.tsx",
+    "start": {
+      "line": 226,
+      "column": 16
+    },
+    "end": {
+      "line": 226,
+      "column": 89
+    }
+  },
+  {
+    "id": "dashboard.transactions.to",
+    "defaultMessage": "To",
+    "file": "src/modules/Dashboard/modules/Exchange/containers/ExchangeConfirmationContainer.tsx",
+    "start": {
+      "line": 238,
+      "column": 16
+    },
+    "end": {
+      "line": 238,
+      "column": 87
+    }
+  },
+  {
+    "id": "dashboard.exchangeConfirmation.favorableCryptocurrencyPrices",
+    "defaultMessage": "We ensure favorable cryptocurrency prices according to our Best Execution Policy.",
+    "file": "src/modules/Dashboard/modules/Exchange/containers/ExchangeConfirmationContainer.tsx",
+    "start": {
+      "line": 269,
+      "column": 12
+    },
+    "end": {
+      "line": 272,
+      "column": 14
+    }
+  },
+  {
+    "id": "dashboard.exchangeConfirmation.change",
+    "defaultMessage": "Change",
+    "file": "src/modules/Dashboard/modules/Exchange/containers/ExchangeConfirmationContainer.tsx",
+    "start": {
+      "line": 285,
+      "column": 12
+    },
+    "end": {
+      "line": 285,
+      "column": 99
+    }
+  }
+]

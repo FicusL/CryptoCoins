@@ -1,0 +1,30 @@
+@import "reset";
+
+@import "common/mixins";
+@import "common/variables";
+
+@import "bootstrap";
+
+@import "base";
+
+@import "icons";
+
+.dashboard_title {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 22px;
+  text-transform: uppercase;
+  padding-left: 15px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.row {
+  @media (max-width:576px) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

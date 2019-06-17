@@ -1,0 +1,28 @@
+[
+  {
+    "id": "dashboard.exchange.title",
+    "defaultMessage": "Exchange",
+    "file": "src/modules/Dashboard/modules/Exchange/containers/ExchangeContainer.tsx",
+    "start": {
+      "line": 88,
+      "column": 10
+    },
+    "end": {
+      "line": 88,
+      "column": 86
+    }
+  },
+  {
+    "id": "dashboard.confirm",
+    "defaultMessage": "Confirm",
+    "file": "src/modules/Dashboard/modules/Exchange/containers/ExchangeContainer.tsx",
+    "start": {
+      "line": 100,
+      "column": 12
+    },
+    "end": {
+      "line": 100,
+      "column": 80
+    }
+  }
+]

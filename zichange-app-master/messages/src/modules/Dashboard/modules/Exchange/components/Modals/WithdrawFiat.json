@@ -1,0 +1,15 @@
+[
+  {
+    "id": "dashboard.confirm",
+    "defaultMessage": "Confirm",
+    "file": "src/modules/Dashboard/modules/Exchange/components/Modals/WithdrawFiat.tsx",
+    "start": {
+      "line": 146,
+      "column": 12
+    },
+    "end": {
+      "line": 146,
+      "column": 80
+    }
+  }
+]

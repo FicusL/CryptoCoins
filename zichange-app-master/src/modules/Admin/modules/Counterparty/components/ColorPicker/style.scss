@@ -1,0 +1,43 @@
+.color-picker {
+
+  &-label {
+    padding: 0;
+    width: 140px;
+    justify-content: flex-end;
+    margin: 0 10px 0 0;
+  }
+
+  &-swatch {
+    padding: 5px;
+    background: #fff;
+    border-radius: 1px;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.1);
+    display: inline-block;
+    cursor: pointer;
+    max-width: 30px;
+    max-height: 30px;
+  }
+
+  &-popover {
+    z-index: 2;
+  }
+
+  &-cover {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  &-block {
+    width: 20px;
+    height: 20px;
+  }
+
+  &-input {
+    width: 200px !important;
+    max-width: 240px;
+    min-height: 30px;
+  }
+}

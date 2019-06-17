@@ -1,0 +1,120 @@
+@import "/../../../Shared/style/common/mixins";
+
+.footer {
+  padding: 0;
+  background: #303e47;
+  font-weight: normal;
+  border: none;
+  overflow: hidden;
+
+  &__referral {
+    @include minMedia(1200) {
+      display: none;
+    }
+  }
+
+  &__first-section {
+    border-bottom: 1px solid rgb(80, 97, 110);
+    padding: 50px 0 40px;
+    margin-bottom: 30px;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__documents,
+  &__info-links {
+    display: flex;
+    flex-direction: column;
+
+    &__contact-us {
+      margin-bottom: 0;
+      cursor: pointer;
+    }
+
+    a,
+    &__contact-us span{
+      text-decoration: underline;
+      font-size: 16px;
+      line-height: 30px;
+      color: #fff;
+
+      @media screen and (max-width: 767px){
+        text-align: center;
+      }
+    }
+  }
+
+  &__info-links {
+    text-align: center;
+  }
+
+  &__estonia-image {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    &__title {
+      color: #8796a1;
+      font-size: 18px;
+      line-height: 24px;
+
+      span {
+        font-size: 31px;
+        font-weight: bold;
+      }
+    }
+
+    img {
+      width: 140px;
+    }
+  }
+
+  &__second-section {
+    margin-bottom: 30px;
+  }
+
+  &__address {
+    justify-content: flex-start;
+    margin-bottom: 0;
+
+    font-size: 14px;
+    font-size: 14px;
+    line-height: 1em;
+    color: #b9c2c9;
+  }
+
+  &__cards {
+    align-self: center;
+
+    img {
+      width: 60px;
+      height: 30px;
+    }
+  }
+
+  &__copyright {
+    color: #b9c2c9;
+    line-height: 1em;
+    font-size: 14px;
+    text-align: right;
+
+    span:nth-child(1) {
+      color: #fff;
+    }
+  }
+  &__risk-warning {
+    margin-top: 7px;
+    font-size: 10px;
+    line-height: 0.9em;
+    color: #b9c2c9;
+    text-align: center;
+  }
+  @media (max-width: 1500px) {
+    &__risk-warning {
+      margin-bottom: 37px;
+    }
+  }
+}

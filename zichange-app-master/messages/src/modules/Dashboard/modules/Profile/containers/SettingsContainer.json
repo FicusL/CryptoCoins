@@ -1,0 +1,15 @@
+[
+  {
+    "id": "dashboard.settings.email",
+    "defaultMessage": "Email",
+    "file": "src/modules/Dashboard/modules/Profile/containers/SettingsContainer.tsx",
+    "start": {
+      "line": 178,
+      "column": 14
+    },
+    "end": {
+      "line": 178,
+      "column": 87
+    }
+  }
+]

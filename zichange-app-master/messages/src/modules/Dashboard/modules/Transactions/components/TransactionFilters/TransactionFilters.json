@@ -1,0 +1,15 @@
+[
+  {
+    "id": "dashboard.transactions.search",
+    "defaultMessage": "Search",
+    "file": "src/modules/Dashboard/modules/Transactions/components/TransactionFilters/TransactionFilters.tsx",
+    "start": {
+      "line": 171,
+      "column": 16
+    },
+    "end": {
+      "line": 171,
+      "column": 95
+    }
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "id": "dashboard.main.logout",
+    "defaultMessage": "Logout",
+    "file": "src/modules/Shared/components/Navbar/LogoutButton.tsx",
+    "start": {
+      "line": 17,
+      "column": 10
+    },
+    "end": {
+      "line": 17,
+      "column": 81
+    }
+  }
+]

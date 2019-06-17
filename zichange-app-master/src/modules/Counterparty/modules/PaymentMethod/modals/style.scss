@@ -1,0 +1,36 @@
+.checkbox {
+  &__container {
+    font-size: 14px;
+    padding-left: 32px;
+    min-height: 25px;
+  }
+
+  &__check-mark, &__check-mark-custom {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    height: 25px;
+    width: 25px;
+    border: 1px solid #fff;
+  }
+
+  .checkbox__check-mark:after, .checkbox__check-mark-custom-active {
+    content: "";
+    position: absolute;
+    display: none;
+    left: 7px;
+    top: 3px;
+    width: 9px;
+    height: 14px;
+    border: solid white;
+    border-width: 0 4px 4px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+}
+
+p {
+  margin-bottom: 0;
+}

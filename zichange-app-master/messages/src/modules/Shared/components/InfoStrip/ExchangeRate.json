@@ -1,0 +1,54 @@
+[
+  {
+    "id": "dashboard.infoStrip.pair",
+    "defaultMessage": "Pair",
+    "file": "src/modules/Shared/components/InfoStrip/ExchangeRate.tsx",
+    "start": {
+      "line": 29,
+      "column": 12
+    },
+    "end": {
+      "line": 29,
+      "column": 84
+    }
+  },
+  {
+    "id": "dashboard.infoStrip.bid",
+    "defaultMessage": "Bid",
+    "file": "src/modules/Shared/components/InfoStrip/ExchangeRate.tsx",
+    "start": {
+      "line": 35,
+      "column": 12
+    },
+    "end": {
+      "line": 35,
+      "column": 82
+    }
+  },
+  {
+    "id": "dashboard.infoStrip.ask",
+    "defaultMessage": "Ask",
+    "file": "src/modules/Shared/components/InfoStrip/ExchangeRate.tsx",
+    "start": {
+      "line": 41,
+      "column": 12
+    },
+    "end": {
+      "line": 41,
+      "column": 82
+    }
+  },
+  {
+    "id": "dashboard.infoStrip.change",
+    "defaultMessage": "Change",
+    "file": "src/modules/Shared/components/InfoStrip/ExchangeRate.tsx",
+    "start": {
+      "line": 47,
+      "column": 12
+    },
+    "end": {
+      "line": 47,
+      "column": 88
+    }
+  }
+]

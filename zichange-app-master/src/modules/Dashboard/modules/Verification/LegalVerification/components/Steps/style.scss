@@ -1,0 +1,42 @@
+@import "../../../../../../Shared/style/common/mixins";
+
+.legal-kyc {
+
+  .kyc__steps {
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin-bottom: 50px;
+    transition: 0.3s;
+    height: 60px;
+
+    .step {
+      display: flex;
+      justify-content: space-between;
+      position: absolute;
+      top: -700px;
+      width: 100%;
+      padding: 15px 25px;
+      background-color: rgba(255, 255, 255, 0.1);
+      font-size: 22px;
+      color: rgba(255, 255, 255, 0.25);
+      transition: 0.3s ease-in-out;
+      white-space: normal;
+
+      &--active {
+        top: 0;
+        color: #fff;
+        background-color: rgba(255, 255, 255, 0.3);
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  .kyc__steps {
+    .step {
+      font-size: 18px;
+    }
+  }
+}

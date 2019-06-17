@@ -1,0 +1,76 @@
+@import "../../../../Shared/style/common/mixins";
+
+.transaction-row {
+  position: relative;
+  padding: 15px 0;
+
+  font-size: 18px;
+  background: rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+  cursor: pointer;
+  transition: transform 0.3s;
+
+  &:hover, &.active {
+    background: rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  @include minMedia($sm) {
+    &:hover:not(.active) {
+      transform: scale(1.015);
+      box-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+    }
+  }
+
+   .status {
+    //text-transform: capitalize;
+    color: #ffc107;
+    text-shadow: 0 0 2px #ff8000;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &-Completed {
+      color: #28a745;
+      text-shadow: 0 0 2px #28a745;
+    }
+
+    &-Rejected {
+      color: #dc3545;
+      text-shadow: 0 0 2px #dc3545;
+    }
+  }
+
+}
+
+.transaction-info {
+  height: 0;
+  overflow: hidden;
+
+  font-family: Avenir-Light, 'Proxima Nova', sans-serif;
+  font-size: 16px;
+
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+
+  &.opened {
+    height: 200px;
+    padding: 15px 0;
+    visibility: visible;
+  }
+
+  .value {
+    font-style: italic;
+  }
+
+  .payment-details-link {
+    font-size: 20px;
+    font-family: 'Proxima Nova', sans-serif;
+    
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+}

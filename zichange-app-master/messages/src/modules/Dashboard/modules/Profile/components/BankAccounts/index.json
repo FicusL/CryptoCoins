@@ -1,0 +1,28 @@
+[
+  {
+    "id": "dashboard.settings.haveNoBankAccounts",
+    "defaultMessage": "You have no connected bank accounts",
+    "file": "src/modules/Dashboard/modules/Profile/components/BankAccounts/index.tsx",
+    "start": {
+      "line": 43,
+      "column": 12
+    },
+    "end": {
+      "line": 45,
+      "column": 14
+    }
+  },
+  {
+    "id": "dashboard.settings.addNewBank",
+    "defaultMessage": "Add new bank",
+    "file": "src/modules/Dashboard/modules/Profile/components/BankAccounts/index.tsx",
+    "start": {
+      "line": 50,
+      "column": 12
+    },
+    "end": {
+      "line": 52,
+      "column": 14
+    }
+  }
+]

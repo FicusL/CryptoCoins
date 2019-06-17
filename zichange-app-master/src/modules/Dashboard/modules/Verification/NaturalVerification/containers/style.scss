@@ -1,0 +1,35 @@
+.tier1 {
+  &__form-section {
+    padding-bottom: 25px;
+    margin-bottom: 45px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  }
+}
+
+.container-layout {
+  @media (min-width: 768px) {
+    padding: 0 30px !important;
+  }
+}
+
+.item-layout {
+  &__btn-delete {
+    margin: 0;
+    padding: 0;
+    @media (max-width: 320px) {
+      margin-top: 1rem !important;
+    }
+  }
+}
+
+.confirmation {
+  .checkbox {
+    margin-bottom: 30px;
+  }
+}
+
+.occupation__form-section {
+  .form__error-message {
+    top: 55px;
+  }
+}

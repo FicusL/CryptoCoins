@@ -1,0 +1,76 @@
+@import 'common/mixins';
+
+.font-responsive {
+
+  &__title {
+
+    @include minMedia(320) {
+      font-size: 20px !important;
+    }
+
+    @include minMedia(700) {
+      font-size: 26px !important;
+    }
+
+    @include minMedia(992) {
+      font-size: 28px !important;
+    }
+  }
+
+  @include minMedia(320) {
+    font-size: 14px !important;
+  }
+
+  @include minMedia(700) {
+    font-size: 16px !important;
+    flex-basis: 140px !important;
+  }
+
+  @include minMedia(1140) {
+    font-size: 18px !important;
+  }
+}
+
+.checkbox-responsive {
+  @include minMedia(320) {
+    margin-left: 0 !important;
+    margin-right: 5px !important;
+    padding: 0 !important;
+  }
+}
+
+.container-responsive {
+
+  &__registration {
+    align-items: center;
+
+    @include minMedia(320) {
+      justify-content: start;
+      margin-bottom: 1rem !important;
+    }
+
+    &-font {
+      @include minMedia(320) {
+        font-size: 14px !important;
+      }
+
+      @include minMedia(700) {
+        font-size: 16px !important;
+      }
+
+      &-agree {
+        @include minMedia(700) {
+          flex-basis: 140px !important;
+        }
+      }
+    }
+
+
+  }
+
+  &__kyc {
+    @media (max-width: 320px) {
+      margin-top: 80px !important;
+    }
+  }
+}

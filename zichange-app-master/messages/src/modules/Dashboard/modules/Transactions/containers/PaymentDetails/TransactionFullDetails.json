@@ -1,0 +1,132 @@
+[
+  {
+    "id": "dashboard.transactions.from",
+    "defaultMessage": "From",
+    "file": "src/modules/Dashboard/modules/Transactions/containers/PaymentDetails/TransactionFullDetails.tsx",
+    "start": {
+      "line": 261,
+      "column": 14
+    },
+    "end": {
+      "line": 261,
+      "column": 89
+    }
+  },
+  {
+    "id": "dashboard.transactions.to",
+    "defaultMessage": "To",
+    "file": "src/modules/Dashboard/modules/Transactions/containers/PaymentDetails/TransactionFullDetails.tsx",
+    "start": {
+      "line": 291,
+      "column": 14
+    },
+    "end": {
+      "line": 291,
+      "column": 85
+    }
+  },
+  {
+    "id": "dashboard.transactions.payFrom",
+    "defaultMessage": "Pay from",
+    "file": "src/modules/Dashboard/modules/Transactions/containers/PaymentDetails/TransactionFullDetails.tsx",
+    "start": {
+      "line": 301,
+      "column": 16
+    },
+    "end": {
+      "line": 301,
+      "column": 98
+    }
+  },
+  {
+    "id": "dashboard.transactions.transactionReferenceID",
+    "defaultMessage": "Transaction reference ID",
+    "file": "src/modules/Dashboard/modules/Transactions/containers/PaymentDetails/TransactionFullDetails.tsx",
+    "start": {
+      "line": 327,
+      "column": 16
+    },
+    "end": {
+      "line": 330,
+      "column": 18
+    }
+  },
+  {
+    "id": "dashboard.transactions.amountToSend",
+    "defaultMessage": "Amount to send",
+    "file": "src/modules/Dashboard/modules/Transactions/containers/PaymentDetails/TransactionFullDetails.tsx",
+    "start": {
+      "line": 338,
+      "column": 16
+    },
+    "end": {
+      "line": 338,
+      "column": 109
+    }
+  },
+  {
+    "id": "dashboard.transactions.warning.title",
+    "defaultMessage": "warning",
+    "file": "src/modules/Dashboard/modules/Transactions/containers/PaymentDetails/TransactionFullDetails.tsx",
+    "start": {
+      "line": 355,
+      "column": 16
+    },
+    "end": {
+      "line": 355,
+      "column": 103
+    }
+  },
+  {
+    "id": "dashboard.transactions.warning.descriptionPart1",
+    "defaultMessage": "Make sure to add your Transfer reference ID as comment to wire transfer.",
+    "file": "src/modules/Dashboard/modules/Transactions/containers/PaymentDetails/TransactionFullDetails.tsx",
+    "start": {
+      "line": 359,
+      "column": 16
+    },
+    "end": {
+      "line": 362,
+      "column": 18
+    }
+  },
+  {
+    "id": "dashboard.transactions.warning.descriptionPart2",
+    "defaultMessage": "Transactions without reference ID will be lost!",
+    "file": "src/modules/Dashboard/modules/Transactions/containers/PaymentDetails/TransactionFullDetails.tsx",
+    "start": {
+      "line": 364,
+      "column": 16
+    },
+    "end": {
+      "line": 367,
+      "column": 18
+    }
+  },
+  {
+    "id": "dashboard.transactions.payWithAdvancedCash",
+    "defaultMessage": "Pay with Advanced Cash",
+    "file": "src/modules/Dashboard/modules/Transactions/containers/PaymentDetails/TransactionFullDetails.tsx",
+    "start": {
+      "line": 394,
+      "column": 14
+    },
+    "end": {
+      "line": 397,
+      "column": 16
+    }
+  },
+  {
+    "id": "dashboard.transactions.payWithPayeer",
+    "defaultMessage": "Pay with PAYEER",
+    "file": "src/modules/Dashboard/modules/Transactions/containers/PaymentDetails/TransactionFullDetails.tsx",
+    "start": {
+      "line": 405,
+      "column": 14
+    },
+    "end": {
+      "line": 408,
+      "column": 16
+    }
+  }
+]

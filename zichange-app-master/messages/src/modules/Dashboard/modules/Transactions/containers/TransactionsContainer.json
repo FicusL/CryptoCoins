@@ -1,0 +1,106 @@
+[
+  {
+    "id": "dashboard.transactions.tabs.transactions",
+    "defaultMessage": "Transactions",
+    "file": "src/modules/Dashboard/modules/Transactions/containers/TransactionsContainer.tsx",
+    "start": {
+      "line": 106,
+      "column": 12
+    },
+    "end": {
+      "line": 106,
+      "column": 108
+    }
+  },
+  {
+    "id": "dashboard.transactions.tabs.referrals",
+    "defaultMessage": "Referral",
+    "file": "src/modules/Dashboard/modules/Transactions/containers/TransactionsContainer.tsx",
+    "start": {
+      "line": 113,
+      "column": 12
+    },
+    "end": {
+      "line": 113,
+      "column": 101
+    }
+  },
+  {
+    "id": "dashboard.transactions.date",
+    "defaultMessage": "Date",
+    "file": "src/modules/Dashboard/modules/Transactions/containers/TransactionsContainer.tsx",
+    "start": {
+      "line": 124,
+      "column": 18
+    },
+    "end": {
+      "line": 124,
+      "column": 93
+    }
+  },
+  {
+    "id": "dashboard.transactions.type",
+    "defaultMessage": "Type",
+    "file": "src/modules/Dashboard/modules/Transactions/containers/TransactionsContainer.tsx",
+    "start": {
+      "line": 132,
+      "column": 18
+    },
+    "end": {
+      "line": 132,
+      "column": 93
+    }
+  },
+  {
+    "id": "dashboard.transactions.amount",
+    "defaultMessage": "Amount",
+    "file": "src/modules/Dashboard/modules/Transactions/containers/TransactionsContainer.tsx",
+    "start": {
+      "line": 140,
+      "column": 18
+    },
+    "end": {
+      "line": 140,
+      "column": 97
+    }
+  },
+  {
+    "id": "dashboard.transactions.currency",
+    "defaultMessage": "Currency",
+    "file": "src/modules/Dashboard/modules/Transactions/containers/TransactionsContainer.tsx",
+    "start": {
+      "line": 148,
+      "column": 18
+    },
+    "end": {
+      "line": 148,
+      "column": 101
+    }
+  },
+  {
+    "id": "dashboard.transactions.status",
+    "defaultMessage": "Status",
+    "file": "src/modules/Dashboard/modules/Transactions/containers/TransactionsContainer.tsx",
+    "start": {
+      "line": 156,
+      "column": 18
+    },
+    "end": {
+      "line": 156,
+      "column": 97
+    }
+  },
+  {
+    "id": "dashboard.transactions.haveNoTransactions",
+    "defaultMessage": "You have no transactions yet",
+    "file": "src/modules/Dashboard/modules/Transactions/containers/TransactionsContainer.tsx",
+    "start": {
+      "line": 175,
+      "column": 20
+    },
+    "end": {
+      "line": 178,
+      "column": 18
+    }
+  }
+]

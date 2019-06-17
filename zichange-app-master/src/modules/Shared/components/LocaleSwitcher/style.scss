@@ -1,0 +1,16 @@
+.lang-switcher {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+}
+.lang-switcher img {
+  border-radius: 35px;
+  width: 50px;
+  opacity: 0.6;
+  transition: 300ms;
+}
+.lang-switcher:hover img {
+  opacity: 1;
+}

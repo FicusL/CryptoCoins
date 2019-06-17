@@ -1,0 +1,108 @@
+export const english = {
+  signIn: {
+    email: 'Email',
+    emailPlaceholder: 'Enter your email',
+    password: 'Password',
+    passwordPlaceholder: 'Enter your password',
+    captcha: 'Captcha',
+    resetPassword: 'Reset password',
+    captchaPlaceholder: 'Enter captcha',
+    signIn: 'Login',
+    noAccount: 'Don\'t have an account?',
+    signUp: 'Sign up',
+
+    validation: {
+      incorrect_email: 'Incorrect email',
+      incorrect_password: 'Incorrect password',
+      incorrect_captcha: 'Incorrect captcha code',
+    },
+  },
+  signUp: {
+    email: 'Email',
+    emailPlaceholder: 'Enter your email',
+    password: 'Password',
+    passwordPlaceholder: 'Enter your password',
+    captcha: 'Captcha',
+    resetPassword: 'Reset password',
+    captchaPlaceholder: 'Enter captcha',
+    signIn: 'LOGIN',
+    noAccount: 'Don\'t have an account?',
+    signUp: 'Sign up',
+    firstName: 'First name',
+    firstNamePlaceholder: 'Enter your first name',
+    middleName: 'Middle name',
+    middleNamePlaceholder: 'Enter your middle name (optional)',
+    lastName: 'Last name',
+    lastNamePlaceholder: 'Enter your last name',
+    lowercaseAlert: 'Lowercase characters',
+    uppercaseAlert: 'Uppercase characters',
+    numbersAlert: 'Numbers',
+    specialAlert: 'Special characters',
+    minimumAlert: '8 characters minimum',
+    referral: 'Referral',
+    referralPlaceholder: 'Enter your referal (optional)',
+    termsConditionalText: 'By clicking this button, you agree to Zichain',
+    termsConditionalButton: 'Terms & Conditions',
+    haveAccount: 'Do you have an account?',
+
+    validation: {
+      incorrect_email: 'Incorrect email',
+      already_registered_email: 'Email is already registered',
+      incorrect_password: 'Incorrect password',
+      incorrect_first_name: 'Incorrect first name',
+      incorrect_middle_name: 'Incorrect middle name',
+      incorrect_last_name: 'Incorrect last name',
+      incorrect_referral: 'Incorrect referral code',
+      incorrect_captcha: 'Incorrect captcha code',
+    },
+  },
+  dashboard: {
+    logout: 'Log out',
+    dashboard: 'Dashboard',
+    transaction: 'Transactions',
+    myBalance: 'My Balance',
+    contribute: 'Contribute',
+    deposit: 'Deposit value',
+    receive: 'Receive value',
+    amount: 'Amount',
+    bonus: 'Bonus',
+    youWillGet: 'You will get',
+    rates: 'Rates',
+    price: 'price',
+    paymentDetails: 'Payment details',
+    pleaseSend: 'Please send',
+    to: 'to:',
+    willGet: 'YOU WILL GET',
+    done: 'DONE',
+
+  },
+  transactions: {
+    logout: 'Log out',
+    dashboard: 'Dashboard',
+    transaction: 'Transactions',
+    myBalance: 'My Balance',
+    purchase: 'Purchase',
+    pending: 'pending',
+    success: 'success',
+    rejected: 'rejected',
+  },
+
+  verify_email: {
+    loading: 'Loading...',
+    success: {
+      header: 'Your account has been successfully confirmed.',
+      description: 'Now you can login.',
+    },
+
+    fail: {
+      header: 'Invalid verify link.',
+      description: 'Token has expired or invalid.',
+    },
+
+    continue: 'CLICK TO CONTINUE',
+  },
+
+  reset: {
+
+  },
+};

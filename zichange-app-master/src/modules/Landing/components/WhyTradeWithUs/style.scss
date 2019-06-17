@@ -1,0 +1,63 @@
+.advantages {
+  color: #303e48;
+
+  &__title {
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
+    margin-bottom: 60px;
+  }
+
+  &__list {
+
+    &__item {
+      display: flex;
+      margin-bottom: 60px;
+
+      &__icon {
+        flex: none;
+        width: 92px;
+
+        img {
+          position: relative;
+          top: 5px;
+        }
+      }
+
+      &__description {
+        font-size: 18px;
+        line-height: 26px;
+
+        .title {
+          display: block;
+          margin-bottom: 10px;
+
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+  .landing-btn {
+    width: auto;
+    padding: 0 85px 0 55px;
+    position: relative;
+    margin-bottom: 55px;
+
+    &::after {
+      position: absolute;
+      content: '';
+
+      width: 20px;
+      height: 20px;
+      top: 50%;
+      right: 55px;
+      transform: translateY(-50%);
+
+      background: url('../Header/assets/rocket.png') no-repeat center;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "id": "dashboard.exchangeRejectReason.title",
+    "defaultMessage": "KYC verification has been rejected",
+    "file": "src/modules/Dashboard/modules/Exchange/components/Modals/ExchangeRejectReasonModal.tsx",
+    "start": {
+      "line": 21,
+      "column": 10
+    },
+    "end": {
+      "line": 24,
+      "column": 12
+    }
+  },
+  {
+    "id": "dashboard.exchangeRejectReason.retryVerification",
+    "defaultMessage": "Retry verification",
+    "file": "src/modules/Dashboard/modules/Exchange/components/Modals/ExchangeRejectReasonModal.tsx",
+    "start": {
+      "line": 35,
+      "column": 12
+    },
+    "end": {
+      "line": 38,
+      "column": 14
+    }
+  }
+]

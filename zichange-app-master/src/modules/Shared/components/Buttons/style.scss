@@ -1,0 +1,133 @@
+.dashboard-btn {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  height: 45px;
+  border-radius: 20px;
+  padding: 0 24px;
+  border: none;
+  cursor: pointer;
+
+  &--default {
+    background-color: #fff;
+    //color: #57b8a3;
+    border: transparent solid 2px;
+
+    &:hover {
+      background-color: #303e47;
+      color: #fff;
+      border: #fff solid 2px;
+      box-shadow: 0 5px 30px 0 rgba(42, 110, 118, 0.6);
+    }
+  }
+
+  &--transparent {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    border: none;
+    background: none;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  &--white {
+    background-color: #fff;
+    //color: #57b8a3;
+    border: transparent solid 2px;
+
+    &:hover {
+      background-color: #303e47;
+      color: #fff;
+      border: #fff solid 2px;
+      box-shadow: 0 5px 30px 0 rgba(42, 110, 118, 0.6);
+    }
+  }
+
+  &--dark {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    border:none;
+    opacity: .5;
+    transition: .3s;
+
+    &:hover{
+      opacity: 1;
+    }
+  }
+
+  &--sell {
+    color: #fff;
+    border: #fff solid 2px;
+    background: transparent;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.25);
+    }
+  }
+
+  &--currency {
+    color: #57b8a3;
+    background-color: #fff;
+    border: 1px solid #57b8a3;
+    border-radius: 22px;
+
+    &:hover,
+    &.active {
+      background-color: rgba(76, 69, 119, 0.251);
+    }
+  }
+
+  &--modal {
+    display: block;
+    width: 100%;
+    //margin: 0 auto 20px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #57b8a3;
+    text-transform: uppercase;
+
+    &:hover {
+      background-color: rgb(11, 20, 36);
+      box-shadow: 0 5px 30px 0 rgba(42, 110, 118, 0.6);
+    }
+  }
+
+  &--fluid {
+    width: 100%;
+  }
+
+  &--delete {
+    padding: 0 22px;
+    height: 40px;
+    position: absolute;
+    background-color: white;
+    font-size: 18px;
+
+    &:hover {
+      background-color: #fff;
+    }
+
+    &::before,
+    &::after {
+      position: absolute;
+      content: ' ';
+      height: 25px;
+      width: 4px;
+      background-color: #57b8a3;
+      bottom: 7px;
+      left: 20px;
+    }
+
+    &::before {
+      transform: rotate(45deg);
+    }
+
+    &::after {
+      transform: rotate(-45deg);
+    }
+  }
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "id": "authorization.signIn",
+    "defaultMessage": "Login",
+    "file": "src/modules/Authorization/modules/Login/LoginContainer.tsx",
+    "start": {
+      "line": 127,
+      "column": 12
+    },
+    "end": {
+      "line": 127,
+      "column": 81
+    }
+  },
+  {
+    "id": "authorization.resetPassword",
+    "defaultMessage": "Reset password",
+    "file": "src/modules/Authorization/modules/Login/LoginContainer.tsx",
+    "start": {
+      "line": 113,
+      "column": 16
+    },
+    "end": {
+      "line": 113,
+      "column": 100
+    }
+  },
+  {
+    "id": "authorization.noAccount",
+    "defaultMessage": "Don't have an account?",
+    "file": "src/modules/Authorization/modules/Login/LoginContainer.tsx",
+    "start": {
+      "line": 132,
+      "column": 10
+    },
+    "end": {
+      "line": 132,
+      "column": 102
+    }
+  },
+  {
+    "id": "authorization.signUp",
+    "defaultMessage": "Sign up!",
+    "file": "src/modules/Authorization/modules/Login/LoginContainer.tsx",
+    "start": {
+      "line": 135,
+      "column": 12
+    },
+    "end": {
+      "line": 135,
+      "column": 84
+    }
+  }
+]

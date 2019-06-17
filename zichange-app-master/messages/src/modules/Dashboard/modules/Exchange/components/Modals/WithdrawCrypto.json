@@ -1,0 +1,28 @@
+[
+  {
+    "id": "dashboard.exchange.withdraw",
+    "defaultMessage": "Withdraw",
+    "file": "src/modules/Dashboard/modules/Exchange/components/Modals/WithdrawCrypto.tsx",
+    "start": {
+      "line": 71,
+      "column": 32
+    },
+    "end": {
+      "line": 71,
+      "column": 111
+    }
+  },
+  {
+    "id": "dashboard.confirm",
+    "defaultMessage": "Confirm",
+    "file": "src/modules/Dashboard/modules/Exchange/components/Modals/WithdrawCrypto.tsx",
+    "start": {
+      "line": 141,
+      "column": 12
+    },
+    "end": {
+      "line": 141,
+      "column": 80
+    }
+  }
+]

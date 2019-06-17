@@ -1,0 +1,80 @@
+[
+  {
+    "id": "dashboard.exchange.deposit",
+    "defaultMessage": "Deposit",
+    "file": "src/modules/Dashboard/modules/Exchange/components/Modals/DepositFiat.tsx",
+    "start": {
+      "line": 65,
+      "column": 32
+    },
+    "end": {
+      "line": 65,
+      "column": 109
+    }
+  },
+  {
+    "id": "depositAmount",
+    "defaultMessage": "Deposit amount",
+    "file": "src/modules/Dashboard/modules/Exchange/components/Modals/DepositFiat.tsx",
+    "start": {
+      "line": 117,
+      "column": 14
+    },
+    "end": {
+      "line": 117,
+      "column": 84
+    }
+  },
+  {
+    "id": "dashboard.transactions.fee",
+    "defaultMessage": "Fee",
+    "file": "src/modules/Dashboard/modules/Exchange/components/Modals/DepositFiat.tsx",
+    "start": {
+      "line": 125,
+      "column": 16
+    },
+    "end": {
+      "line": 125,
+      "column": 88
+    }
+  },
+  {
+    "id": "dashboard.depositFiat.fixed",
+    "defaultMessage": "Fixed",
+    "file": "src/modules/Dashboard/modules/Exchange/components/Modals/DepositFiat.tsx",
+    "start": {
+      "line": 126,
+      "column": 17
+    },
+    "end": {
+      "line": 126,
+      "column": 93
+    }
+  },
+  {
+    "id": "dashboard.depositFiat.total",
+    "defaultMessage": "Total",
+    "file": "src/modules/Dashboard/modules/Exchange/components/Modals/DepositFiat.tsx",
+    "start": {
+      "line": 136,
+      "column": 14
+    },
+    "end": {
+      "line": 136,
+      "column": 90
+    }
+  },
+  {
+    "id": "dashboard.confirm",
+    "defaultMessage": "Confirm",
+    "file": "src/modules/Dashboard/modules/Exchange/components/Modals/DepositFiat.tsx",
+    "start": {
+      "line": 142,
+      "column": 12
+    },
+    "end": {
+      "line": 142,
+      "column": 80
+    }
+  }
+]

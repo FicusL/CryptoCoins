@@ -1,0 +1,45 @@
+.tooltip {
+  &-trigger {
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(../../assets/images/dashboard/icon-tooltip.png);
+    cursor: pointer;
+
+    &:hover .tooltip-content {
+      visibility: visible;
+    }
+  }
+  &-content {
+    visibility: hidden;
+    width: 300px;
+    //max-height: 150px;
+    border-radius: 20px;
+    background-color: #fff;
+    font-family: "Proxima Nova", sans-serif;
+    font-size: 18px;
+    color: rgba(76, 69, 119, 0.5);
+    line-height: 1;
+    padding: 15px 25px;
+    text-align: left;
+
+    position: absolute;
+    z-index: 10000;
+    top: 25px;
+    left: 75%;
+    margin-left: -230px;
+
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 100%;
+      left: 75%;
+      margin-left: -8px;
+      border: 8px solid transparent;
+      border-bottom: 8px solid #fff;
+    }
+
+  }
+}

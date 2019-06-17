@@ -1,0 +1,119 @@
+[
+  {
+    "id": "dashboard.kyc.verifyTitle",
+    "defaultMessage": "Verify your identity",
+    "file": "src/modules/Dashboard/modules/Verification/StartVerification/index.tsx",
+    "start": {
+      "line": 35,
+      "column": 10
+    },
+    "end": {
+      "line": 35,
+      "column": 99
+    }
+  },
+  {
+    "id": "dashboard.kyc.advantageTitle1",
+    "defaultMessage": "SECURITY",
+    "file": "src/modules/Dashboard/modules/Verification/StartVerification/index.tsx",
+    "start": {
+      "line": 44,
+      "column": 18
+    },
+    "end": {
+      "line": 44,
+      "column": 99
+    }
+  },
+  {
+    "id": "dashboard.kyc.advantageDescription1",
+    "defaultMessage": "All provided information is encrypted and securely stored.",
+    "file": "src/modules/Dashboard/modules/Verification/StartVerification/index.tsx",
+    "start": {
+      "line": 47,
+      "column": 18
+    },
+    "end": {
+      "line": 47,
+      "column": 155
+    }
+  },
+  {
+    "id": "dashboard.kyc.advantageTitle2",
+    "defaultMessage": "SIMPLE",
+    "file": "src/modules/Dashboard/modules/Verification/StartVerification/index.tsx",
+    "start": {
+      "line": 58,
+      "column": 18
+    },
+    "end": {
+      "line": 58,
+      "column": 97
+    }
+  },
+  {
+    "id": "dashboard.kyc.advantageDescription2",
+    "defaultMessage": "Verification process is very simple and it would not take you much time.",
+    "file": "src/modules/Dashboard/modules/Verification/StartVerification/index.tsx",
+    "start": {
+      "line": 61,
+      "column": 18
+    },
+    "end": {
+      "line": 61,
+      "column": 169
+    }
+  },
+  {
+    "id": "dashboard.kyc.advantageTitle3",
+    "defaultMessage": "COMPLIANT",
+    "file": "src/modules/Dashboard/modules/Verification/StartVerification/index.tsx",
+    "start": {
+      "line": 72,
+      "column": 18
+    },
+    "end": {
+      "line": 72,
+      "column": 100
+    }
+  },
+  {
+    "id": "dashboard.kyc.advantageDescription3",
+    "defaultMessage": "Verification procedure is fully compliant with AML and KYC regulations",
+    "file": "src/modules/Dashboard/modules/Verification/StartVerification/index.tsx",
+    "start": {
+      "line": 75,
+      "column": 18
+    },
+    "end": {
+      "line": 75,
+      "column": 167
+    }
+  },
+  {
+    "id": "dashboard.kyc.startVerificationButton_part1",
+    "defaultMessage": "Start Tier",
+    "file": "src/modules/Dashboard/modules/Verification/StartVerification/index.tsx",
+    "start": {
+      "line": 88,
+      "column": 14
+    },
+    "end": {
+      "line": 88,
+      "column": 111
+    }
+  },
+  {
+    "id": "dashboard.kyc.startVerificationButton_part2",
+    "defaultMessage": "Verification",
+    "file": "src/modules/Dashboard/modules/Verification/StartVerification/index.tsx",
+    "start": {
+      "line": 90,
+      "column": 14
+    },
+    "end": {
+      "line": 90,
+      "column": 113
+    }
+  }
+]

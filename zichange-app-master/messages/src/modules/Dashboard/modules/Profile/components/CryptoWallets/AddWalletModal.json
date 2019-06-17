@@ -1,0 +1,28 @@
+[
+  {
+    "id": "dashboard.settings.addWallet.title",
+    "defaultMessage": "Add cryptocurrency wallet",
+    "file": "src/modules/Dashboard/modules/Profile/components/CryptoWallets/AddWalletModal.tsx",
+    "start": {
+      "line": 52,
+      "column": 10
+    },
+    "end": {
+      "line": 54,
+      "column": 12
+    }
+  },
+  {
+    "id": "dashboard.settings.add",
+    "defaultMessage": "Add",
+    "file": "src/modules/Dashboard/modules/Profile/components/CryptoWallets/AddWalletModal.tsx",
+    "start": {
+      "line": 85,
+      "column": 10
+    },
+    "end": {
+      "line": 85,
+      "column": 79
+    }
+  }
+]

@@ -1,0 +1,108 @@
+export const china = {
+  signIn: {
+    email: '电子邮件',
+    emailPlaceholder: '请输入您的电子邮件地址',
+    password: '密码',
+    passwordPlaceholder: '请输入您的密码',
+    captcha: '验证码',
+    resetPassword: '重复输入密码',
+    captchaPlaceholder: '请输入验证码',
+    signIn: '登录',
+    noAccount: '没有账号吗？',
+    signUp: '注册fdndflgnldfn',
+
+    validation: {
+      incorrect_email: '电子邮件地址无效',
+      incorrect_password: '无效的密码',
+      incorrect_captcha: '无效输入',
+    },
+  },
+  signUp: {
+    email: '电子邮件',
+    emailPlaceholder: '请输入新密码',
+    password: '密码',
+    passwordPlaceholder: '请输入您的密码',
+    captcha: '验证码',
+    resetPassword: '忘记您的帐户密码？',
+    captchaPlaceholder: '请输入验证码',
+    signIn: '登录',
+    noAccount: '没有账号吗？',
+    signUp: '注册',
+    firstName: '名',
+    firstNamePlaceholder: '请输入您的名字',
+    middleName: '中间名字',
+    middleNamePlaceholder: '请输入您的中间名（可选）',
+    lastName: '姓',
+    lastNamePlaceholder: '请输入您的姓氏',
+    lowercaseAlert: '小写字符',
+    uppercaseAlert: '大写字符',
+    numbersAlert: '数字',
+    specialAlert: '特殊字符',
+    minimumAlert: '最少8个字符',
+    referral: '推荐代码',
+    referralPlaceholder: '请输入推荐码（可选）',
+    termsConditionalText: '通过点击这个按钮，你同意Zichain',
+    termsConditionalButton: '条款和条件',
+    haveAccount: '已经有一个帐户吗？',
+
+    validation: {
+      incorrect_email: '不合规电邮',
+      already_registered_email: '该邮箱地址已被注册',
+      incorrect_password: '无效的密码',
+      incorrect_first_name: '名字无效',
+      incorrect_middle_name: '无效的中间名称',
+      incorrect_last_name: '姓氏无效',
+      incorrect_referral: '无效的推介码',
+      incorrect_captcha: '无效输入',
+    },
+  },
+  dashboard: {
+    logout: '登出',
+    dashboard: '仪表板',
+    transaction: '交易日志',
+    myBalance: '我的钱包',
+    contribute: '贡献',
+    deposit: '存款额：',
+    receive: '接收金额：',
+    amount: '数量',
+    bonus: '奖金',
+    youWillGet: '你会得到',
+    rates: '利率',
+    price: '价格',
+    paymentDetails: '付款详情',
+    pleaseSend: '请发送',
+    to: '至：',
+    willGet: '你会得到',
+    done: '完成',
+
+  },
+  transactions: {
+    logout: '登出',
+    dashboard: '仪表板',
+    transaction: '交易日志',
+    myBalance: '我的钱包',
+    purchase: '采购',
+    pending: '等待',
+    success: '成功',
+    rejected: '拒绝',
+  },
+
+  verify_email: {
+    loading: '载入中...',
+    success: {
+      header: '您的电子邮件已成功确认。',
+      description: '现在您可以登录',
+    },
+
+    fail: {
+      header: '验证链接无效',
+      description: '令牌已过期或无效',
+    },
+
+    continue: '点击继续fdsfsdfdsadas',
+  },
+
+  reset: {
+
+  },
+};

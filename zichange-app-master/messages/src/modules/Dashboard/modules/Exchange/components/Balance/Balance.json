@@ -1,0 +1,15 @@
+[
+  {
+    "id": "dashboard.exchange.balance",
+    "defaultMessage": "Balance",
+    "file": "src/modules/Dashboard/modules/Exchange/components/Balance/Balance.tsx",
+    "start": {
+      "line": 31,
+      "column": 10
+    },
+    "end": {
+      "line": 31,
+      "column": 87
+    }
+  }
+]

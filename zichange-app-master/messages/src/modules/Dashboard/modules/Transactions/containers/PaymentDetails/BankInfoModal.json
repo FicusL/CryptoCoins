@@ -1,0 +1,15 @@
+[
+  {
+    "id": "dashboard.ok",
+    "defaultMessage": "OK",
+    "file": "src/modules/Dashboard/modules/Transactions/containers/PaymentDetails/BankInfoModal.tsx",
+    "start": {
+      "line": 77,
+      "column": 10
+    },
+    "end": {
+      "line": 77,
+      "column": 68
+    }
+  }
+]

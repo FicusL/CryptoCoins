@@ -1,0 +1,67 @@
+[
+  {
+    "id": "dashboard.exchange.deposit",
+    "defaultMessage": "Deposit",
+    "file": "src/modules/Dashboard/modules/Exchange/components/Modals/DepositCrypto.tsx",
+    "start": {
+      "line": 26,
+      "column": 32
+    },
+    "end": {
+      "line": 26,
+      "column": 109
+    }
+  },
+  {
+    "id": "dashboard.depositCrypto.walletAddress",
+    "defaultMessage": "Your wallet address",
+    "file": "src/modules/Dashboard/modules/Exchange/components/Modals/DepositCrypto.tsx",
+    "start": {
+      "line": 29,
+      "column": 10
+    },
+    "end": {
+      "line": 29,
+      "column": 110
+    }
+  },
+  {
+    "id": "dashboard.transactions.fee",
+    "defaultMessage": "Fee",
+    "file": "src/modules/Dashboard/modules/Exchange/components/Modals/DepositCrypto.tsx",
+    "start": {
+      "line": 52,
+      "column": 12
+    },
+    "end": {
+      "line": 52,
+      "column": 84
+    }
+  },
+  {
+    "id": "dashboard.depositFiat.fixed",
+    "defaultMessage": "Fixed",
+    "file": "src/modules/Dashboard/modules/Exchange/components/Modals/DepositCrypto.tsx",
+    "start": {
+      "line": 53,
+      "column": 13
+    },
+    "end": {
+      "line": 53,
+      "column": 89
+    }
+  },
+  {
+    "id": "dashboard.depositCrypto.note",
+    "defaultMessage": "Send your Bitcoin (BTC) to this address. It will be credited after 6 confirmations.",
+    "file": "src/modules/Dashboard/modules/Exchange/components/Modals/DepositCrypto.tsx",
+    "start": {
+      "line": 62,
+      "column": 10
+    },
+    "end": {
+      "line": 65,
+      "column": 12
+    }
+  }
+]

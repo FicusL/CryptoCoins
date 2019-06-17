@@ -1,0 +1,13 @@
+.reset-password {
+  padding: 60px 0;
+
+  &__divider {
+    padding-bottom: 30px;
+    margin-bottom: 72px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+  }
+
+  .pass-requirements > .requirement--completed:before {
+    background-color: #57b8a3;
+  }
+}

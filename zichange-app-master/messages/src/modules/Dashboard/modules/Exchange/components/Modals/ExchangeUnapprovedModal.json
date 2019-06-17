@@ -1,0 +1,41 @@
+[
+  {
+    "id": "dashboard.exchangeUnapproved.title",
+    "defaultMessage": "KYC verification is unapproved",
+    "file": "src/modules/Dashboard/modules/Exchange/components/Modals/ExchangeUnapprovedModal.tsx",
+    "start": {
+      "line": 20,
+      "column": 10
+    },
+    "end": {
+      "line": 23,
+      "column": 12
+    }
+  },
+  {
+    "id": "dashboard.exchangeUnapproved.description",
+    "defaultMessage": "verify your identity to start trading.",
+    "file": "src/modules/Dashboard/modules/Exchange/components/Modals/ExchangeUnapprovedModal.tsx",
+    "start": {
+      "line": 27,
+      "column": 10
+    },
+    "end": {
+      "line": 30,
+      "column": 12
+    }
+  },
+  {
+    "id": "dashboard.exchangeUnapproved.startTier1",
+    "defaultMessage": "Start Verification",
+    "file": "src/modules/Dashboard/modules/Exchange/components/Modals/ExchangeUnapprovedModal.tsx",
+    "start": {
+      "line": 36,
+      "column": 12
+    },
+    "end": {
+      "line": 39,
+      "column": 14
+    }
+  }
+]

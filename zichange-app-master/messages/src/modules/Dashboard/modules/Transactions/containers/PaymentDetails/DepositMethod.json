@@ -1,0 +1,54 @@
+[
+  {
+    "id": "dashboard.transactions.depositMethod.sepa",
+    "defaultMessage": "SEPA",
+    "file": "src/modules/Dashboard/modules/Transactions/containers/PaymentDetails/DepositMethod.tsx",
+    "start": {
+      "line": 15,
+      "column": 12
+    },
+    "end": {
+      "line": 15,
+      "column": 100
+    }
+  },
+  {
+    "id": "dashboard.transactions.depositMethod.cryptocurrencyWallet",
+    "defaultMessage": "cryptocurrency wallet",
+    "file": "src/modules/Dashboard/modules/Transactions/containers/PaymentDetails/DepositMethod.tsx",
+    "start": {
+      "line": 24,
+      "column": 8
+    },
+    "end": {
+      "line": 27,
+      "column": 10
+    }
+  },
+  {
+    "id": "dashboard.transactions.depositMethod.advancedCash.title",
+    "defaultMessage": "Advanced Cash",
+    "file": "src/modules/Dashboard/modules/Transactions/containers/PaymentDetails/DepositMethod.tsx",
+    "start": {
+      "line": 37,
+      "column": 10
+    },
+    "end": {
+      "line": 40,
+      "column": 12
+    }
+  },
+  {
+    "id": "dashboard.transactions.depositMethod.advancedCash.description",
+    "defaultMessage": "You will be redirected to Advanced Cash to proceed",
+    "file": "src/modules/Dashboard/modules/Transactions/containers/PaymentDetails/DepositMethod.tsx",
+    "start": {
+      "line": 43,
+      "column": 10
+    },
+    "end": {
+      "line": 46,
+      "column": 12
+    }
+  }
+]

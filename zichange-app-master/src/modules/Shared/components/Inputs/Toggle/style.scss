@@ -1,0 +1,29 @@
+.toggle {
+
+  &__container {
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 80px;
+    cursor: pointer;
+  }
+
+  &__switch {
+    display: inline-block;
+    background-color: white;
+    border-radius: 50px;
+    width: 50px;
+    text-align: center;
+    transition: 0.5s;
+    user-select: none;
+
+    span {
+      color: #6C468D;
+      font-size: 12px;
+    }
+
+    &.toggled {
+      margin-left: 26px;
+    }
+  }
+}
