@@ -1,6 +1,0 @@
-export enum KycDocumentType {
-  ID_CARD = 'ID_CARD',
-  PASSPORT = 'PASSPORT',
-  DRIVERS = 'DRIVERS',
-  RESIDENCE_PERMIT = 'RESIDENCE_PERMIT',
-}

@@ -1,1 +1,0 @@
-export type SumsubDocSubType = 'FRONT_SIDE' | 'BACK_SIDE';
