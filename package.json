@@ -80,7 +80,7 @@
     "babel-plugin-react-intl": "^3.0.1",
     "customize-cra": "^0.2.12",
     "mobx-react-devtools": "^6.1.1",
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "react-app-rewired": "^2.1.1",
     "react-scripts": "^2.1.8",
     "tslint": "^5.14.0",
